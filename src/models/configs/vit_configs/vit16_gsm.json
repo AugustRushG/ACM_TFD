@@ -1,0 +1,7 @@
+{
+    "base_model" : "vit16",
+    "num_frames_clip" : 100,
+    "num_classes" : 7,
+    "gru_layers": 1,
+    "temporal_shift_mode": "transformer_gsm_v2"
+}

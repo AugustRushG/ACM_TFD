@@ -1,0 +1,60 @@
+SSL-PES
+Copyright (c) 2026 Hao Xu
+Released under the MIT License (see LICENSE).
+
+This project includes code adapted from the third-party projects listed below.
+Their copyright notices and license terms are reproduced here as those licenses
+require.
+
+-------------------------------------------------------------------------------
+E2E-Spot (https://github.com/jhong93/spot), BSD 3-Clause License
+
+Adapted in: the frame reader, datasets and augmentations (src/data_process/),
+mAP / F1 evaluation and NMS (src/losses_metrics/eval.py,
+src/losses_metrics/metrics.py, src/eval.py, src/test.py), frame extraction
+(src/frames_as_jpg.py), the E2E model, GRU head and temporal shift insertion
+(src/models/E2E.py, src/models/modules.py, src/models/shift.py), and the LR
+schedule (src/training_utils/optimizer.py).
+
+Copyright 2022 James Hong, Haotian Zhang, Matthew Fisher, Michael Gharbi,
+Kayvon Fatahalian
+
+Redistribution and use in source and binary forms, with or without modification,
+are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation and/or
+other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its contributors
+may be used to endorse or promote products derived from this software without
+specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON
+ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+-------------------------------------------------------------------------------
+GSM (Gate-Shift Module), BSD 2-Clause License, Copyright (c) 2019, FBK
+Adapted in: src/models/shift_module/gsm.py. The full license text is kept in
+that file's header.
+
+-------------------------------------------------------------------------------
+TSM (https://github.com/mit-han-lab/temporal-shift-module), MIT License,
+Copyright (c) 2021 MIT HAN Lab
+Adapted in: src/models/shift_module/tsm.py. The full license text is kept in
+that file's header.
+
+-------------------------------------------------------------------------------
+GSF (https://github.com/swathikirans/GSF), by Swathikiran Sudhakaran
+Adapted in: src/models/shift_module/gsf.py (see that file's header).
